@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using NumToWords.Models;
+using System;
 using System.Collections.Generic;
 
 namespace NumToWords.Controllers
@@ -14,8 +15,10 @@ namespace NumToWords.Controllers
         [HttpPost("/results")]
         public ActionResult Results()
         {
-          Conversion newConversion = new Conversion(5);
-          return View();
+          long newLong = Convert.ToInt64(Request.Form["input-number"]);
+          Conversion newConversion = new Conversion(newLong);
+          newConversion.CreateWordList();
+          return View(newConversion);
         }
     }
 }

@@ -9,7 +9,7 @@ namespace NumToWords.Tests
   public class ConversionTest
   {
     [TestMethod]
-    public void GetInputNum_ReturnNum_Int()
+    public void GetInputNum_ReturnNum_Long()
     {
       Conversion newConversion = new Conversion(5);
       Assert.AreEqual(5, newConversion.GetInputNum());

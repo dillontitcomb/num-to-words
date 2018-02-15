@@ -9,8 +9,9 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Here's your number in plain English:</h1>
-        <h3>@Model</h3>
       </div>
+      <h1><strong>@Model.GetDisplayString()</strong></h1><br>
+      <h3><a href="/">Try another number</a></h3>
     </div>
   </body>
 </html>
