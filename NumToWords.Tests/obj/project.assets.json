@@ -3965,7 +3965,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Template/1.0.0": {
+      "NumToWords/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
@@ -3975,10 +3975,10 @@
           "Microsoft.NETCore.App": "1.1.2"
         },
         "compile": {
-          "bin/placeholder/netcoreapp1.1/Template.dll": {}
+          "bin/placeholder/netcoreapp1.1/NumToWords.dll": {}
         },
         "runtime": {
-          "bin/placeholder/netcoreapp1.1/Template.dll": {}
+          "bin/placeholder/netcoreapp1.1/NumToWords.dll": {}
         }
       }
     }
@@ -10629,10 +10629,10 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Template/1.0.0": {
+    "NumToWords/1.0.0": {
       "type": "project",
-      "path": "../Template/Template.csproj",
-      "msbuildProject": "../Template/Template.csproj"
+      "path": "../NumToWords/NumToWords.csproj",
+      "msbuildProject": "../NumToWords/NumToWords.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10641,7 +10641,7 @@
       "MSTest.TestFramework >= 1.1.11",
       "Microsoft.NET.Test.Sdk >= 15.0.0",
       "Microsoft.NETCore.App >= 1.1.2",
-      "Template >= 1.0.0"
+      "NumToWords >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10650,22 +10650,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Template.Solution/Template.Tests/Template.Tests.csproj",
-      "projectName": "Template.Tests",
-      "projectPath": "/Users/Guest/Desktop/Template.Solution/Template.Tests/Template.Tests.csproj",
-      "outputPath": "/Users/Guest/Desktop/Template.Solution/Template.Tests/obj/",
+      "projectUniqueName": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords.Tests/NumToWords.Tests.csproj",
+      "projectName": "NumToWords.Tests",
+      "projectPath": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords.Tests/NumToWords.Tests.csproj",
+      "outputPath": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords.Tests/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Template.Tests.dll": "/Users/Guest/Desktop/Template.Solution/Template.Tests/bin/placeholder/netcoreapp1.1/Template.Tests.dll"
+        "lib/netcoreapp1.1/NumToWords.Tests.dll": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords.Tests/bin/placeholder/netcoreapp1.1/NumToWords.Tests.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "/Users/Guest/Desktop/Template.Solution/Template/Template.csproj": {
-              "projectPath": "/Users/Guest/Desktop/Template.Solution/Template/Template.csproj"
+            "/Users/Guest/Desktop/NumToWords.Solution/NumToWords/NumToWords.csproj": {
+              "projectPath": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords/NumToWords.csproj"
             }
           }
         }
