@@ -11,5 +11,11 @@ namespace NumToWords.Controllers
         {
           return View();
         }
+        [HttpPost("/results")]
+        public ActionResult Results()
+        {
+          Conversion newConversion = new Conversion(5);
+          return View();
+        }
     }
 }
