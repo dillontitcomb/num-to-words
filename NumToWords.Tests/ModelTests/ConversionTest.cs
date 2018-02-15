@@ -1,8 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Template;
+using NumToWords;
 using System.Collections.Generic;
-using Template.Models;
+using NumToWords.Models;
 
-namespace Template.Tests
+namespace NumToWords.Tests
 {
 }

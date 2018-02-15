@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using Template.Models;
+using NumToWords.Models;
 using System.Collections.Generic;
 
-namespace Template.Controllers
+namespace NumToWords.Controllers
 {
     public class HomeController : Controller
     {

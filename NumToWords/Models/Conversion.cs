@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Template.Models
+namespace NumToWords.Models
 {
-  public class TemplateClass
+  public class Conversion
   {
   }
 }

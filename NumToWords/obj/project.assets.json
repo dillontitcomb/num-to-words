@@ -9554,16 +9554,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Template.Solution/Template/Template.csproj",
-      "projectName": "Template",
-      "projectPath": "/Users/Guest/Desktop/Template.Solution/Template/Template.csproj",
-      "outputPath": "/Users/Guest/Desktop/Template.Solution/Template/obj/",
+      "projectUniqueName": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords/NumToWords.csproj",
+      "projectName": "NumToWords",
+      "projectPath": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords/NumToWords.csproj",
+      "outputPath": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Template.dll": "/Users/Guest/Desktop/Template.Solution/Template/bin/placeholder/netcoreapp1.1/Template.dll"
+        "lib/netcoreapp1.1/NumToWords.dll": "/Users/Guest/Desktop/NumToWords.Solution/NumToWords/bin/placeholder/netcoreapp1.1/NumToWords.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
