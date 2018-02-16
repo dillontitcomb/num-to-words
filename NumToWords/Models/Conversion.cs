@@ -27,16 +27,16 @@ namespace NumToWords.Models
 
     public Dictionary<long, string> teens = new Dictionary<long, string>()
     {
-      {0, "and ten"},
-      {1, "and eleven"},
-      {2, "and twelve"},
-      {3, "and thirteen"},
-      {4, "and fourteen"},
-      {5, "and fifteen"},
-      {6, "and sixteen"},
-      {7, "and seventeen"},
-      {8, "and eighteen"},
-      {9, "and nineteen"},
+      {0, "ten"},
+      {1, "eleven"},
+      {2, "twelve"},
+      {3, "thirteen"},
+      {4, "fourteen"},
+      {5, "fifteen"},
+      {6, "sixteen"},
+      {7, "seventeen"},
+      {8, "eighteen"},
+      {9, "nineteen"},
     };
 
     public Dictionary<long, string> tens = new Dictionary<long, string>()
@@ -158,7 +158,14 @@ namespace NumToWords.Models
           outputString.Add(newWord);
           inputNumList.RemoveAt(0);
         }
-        if (inputNumList.Count == 11)
+        if (inputNumList.Count == 11 && inputNumList[0] == 1)
+        {
+          string newWord = GetDictionaryWord(teens,inputNumList[1]);
+          outputString.Add(newWord);
+          inputNumList.RemoveAt(0);
+          inputNumList.RemoveAt(0);
+        }
+        else if (inputNumList.Count == 11)
         {
           string newWord = GetDictionaryWord(tens,inputNumList[0]);
           outputString.Add(newWord);
@@ -176,7 +183,14 @@ namespace NumToWords.Models
           outputString.Add(newWord);
           inputNumList.RemoveAt(0);
         }
-        if (inputNumList.Count == 8)
+        if (inputNumList.Count == 8 && inputNumList[0] == 1)
+        {
+          string newWord = GetDictionaryWord(teens,inputNumList[1]);
+          outputString.Add(newWord);
+          inputNumList.RemoveAt(0);
+          inputNumList.RemoveAt(0);
+        }
+        else if (inputNumList.Count == 8)
         {
           string newWord = GetDictionaryWord(tens,inputNumList[0]);
           outputString.Add(newWord);
@@ -194,7 +208,14 @@ namespace NumToWords.Models
           outputString.Add(newWord);
           inputNumList.RemoveAt(0);
         }
-        if (inputNumList.Count == 5)
+        if (inputNumList.Count == 5 && inputNumList[0] == 1)
+        {
+          string newWord = GetDictionaryWord(teens,inputNumList[1]);
+          outputString.Add(newWord);
+          inputNumList.RemoveAt(0);
+          inputNumList.RemoveAt(0);
+        }
+        else if (inputNumList.Count == 5)
         {
           string newWord = GetDictionaryWord(tens,inputNumList[0]);
           outputString.Add(newWord);
@@ -214,12 +235,12 @@ namespace NumToWords.Models
         }
         if (inputNumList.Count == 2 && inputNumList[0] == 1)
         {
-          string newWord = GetDictionaryWord(teens,(inputNumList[1]));
+          string newWord = GetDictionaryWord(teens,inputNumList[1]);
           outputString.Add(newWord);
           inputNumList.RemoveAt(0);
           inputNumList.RemoveAt(0);
         }
-        if (inputNumList.Count == 2)
+        else if (inputNumList.Count == 2)
         {
           string newWord = GetDictionaryWord(tens,inputNumList[0]);
           outputString.Add(newWord);
