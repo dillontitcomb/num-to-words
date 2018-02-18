@@ -6,3 +6,12 @@
 /Users/Guest/Desktop/NumToWords.Solution/NumToWords/obj/Debug/netcoreapp1.1/NumToWords.AssemblyInfo.cs
 /Users/Guest/Desktop/NumToWords.Solution/NumToWords/obj/Debug/netcoreapp1.1/NumToWords.dll
 /Users/Guest/Desktop/NumToWords.Solution/NumToWords/obj/Debug/netcoreapp1.1/NumToWords.pdb
+C:\Users\dillo\Desktop\num-to-words\NumToWords\bin\Debug\netcoreapp1.1\NumToWords.deps.json
+C:\Users\dillo\Desktop\num-to-words\NumToWords\bin\Debug\netcoreapp1.1\NumToWords.runtimeconfig.json
+C:\Users\dillo\Desktop\num-to-words\NumToWords\bin\Debug\netcoreapp1.1\NumToWords.runtimeconfig.dev.json
+C:\Users\dillo\Desktop\num-to-words\NumToWords\bin\Debug\netcoreapp1.1\NumToWords.dll
+C:\Users\dillo\Desktop\num-to-words\NumToWords\bin\Debug\netcoreapp1.1\NumToWords.pdb
+C:\Users\dillo\Desktop\num-to-words\NumToWords\obj\Debug\netcoreapp1.1\NumToWords.csproj.CoreCompileInputs.cache
+C:\Users\dillo\Desktop\num-to-words\NumToWords\obj\Debug\netcoreapp1.1\NumToWords.AssemblyInfo.cs
+C:\Users\dillo\Desktop\num-to-words\NumToWords\obj\Debug\netcoreapp1.1\NumToWords.dll
+C:\Users\dillo\Desktop\num-to-words\NumToWords\obj\Debug\netcoreapp1.1\NumToWords.pdb

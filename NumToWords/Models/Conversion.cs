@@ -68,44 +68,86 @@ namespace NumToWords.Models
 
     public Dictionary<long, string> thousands = new Dictionary<long, string>()
     {
-      {0, "thousand,"},
-      {1, "one thousand,"},
-      {2, "two thousand,"},
-      {3, "three thousand,"},
-      {4, "four thousand,"},
-      {5, "five thousand,"},
-      {6, "six thousand,"},
-      {7, "seven thousand,"},
-      {8, "eight thousand,"},
-      {9, "nine thousand,"},
+      {0, ""},
+      {1, "one thousand"},
+      {2, "two thousand"},
+      {3, "three thousand"},
+      {4, "four thousand"},
+      {5, "five thousand"},
+      {6, "six thousand"},
+      {7, "seven thousand"},
+      {8, "eight thousand"},
+      {9, "nine thousand"},
+    };
+
+		public Dictionary<long, string> teensThousands = new Dictionary<long, string>()
+    {
+      {0, "ten thousand"},
+      {1, "eleven thousand"},
+      {2, "twelve thousand"},
+      {3, "thirteen thousand"},
+      {4, "fourteen thousand"},
+      {5, "fifteen thousand"},
+      {6, "sixteen thousand"},
+      {7, "seventeen thousand"},
+      {8, "eighteen thousand"},
+      {9, "nineteen thousand"},
     };
 
     public Dictionary<long, string> millions = new Dictionary<long, string>()
     {
-      {0, "million,"},
-      {1, "one million,"},
-      {2, "two million,"},
-      {3, "three million,"},
-      {4, "four million,"},
-      {5, "five million,"},
-      {6, "six million,"},
-      {7, "seven million,"},
-      {8, "eight million,"},
-      {9, "nine million,"},
+      {0, ""},
+      {1, "one million"},
+      {2, "two million"},
+      {3, "three million"},
+      {4, "four million"},
+      {5, "five million"},
+      {6, "six million"},
+      {7, "seven million"},
+      {8, "eight million"},
+      {9, "nine million"},
+    };
+
+		public Dictionary<long, string> teensMillions = new Dictionary<long, string>()
+    {
+      {0, "ten million"},
+      {1, "eleven million"},
+      {2, "twelve million"},
+      {3, "thirteen million"},
+      {4, "fourteen million"},
+      {5, "fifteen million"},
+      {6, "sixteen million"},
+      {7, "seventeen million"},
+      {8, "eighteen million"},
+      {9, "nineteen million"},
     };
 
     public Dictionary<long, string> billions = new Dictionary<long, string>()
     {
-      {0, "billion,"},
-      {1, "one billion,"},
-      {2, "two billion,"},
-      {3, "three billion,"},
-      {4, "four billion,"},
-      {5, "five billion,"},
-      {6, "six billion,"},
-      {7, "seven billion,"},
-      {8, "eight billion,"},
-      {9, "nine billion,"},
+      {0, ""},
+      {1, "one billion"},
+      {2, "two billion"},
+      {3, "three billion"},
+      {4, "four billion"},
+      {5, "five billion"},
+      {6, "six billion"},
+      {7, "seven billion"},
+      {8, "eight billion"},
+      {9, "nine billion"},
+    };
+
+		public Dictionary<long, string> teensBillions = new Dictionary<long, string>()
+    {
+      {0, "ten billion"},
+      {1, "eleven billion"},
+      {2, "twelve billion"},
+      {3, "thirteen billion"},
+      {4, "fourteen billion"},
+      {5, "fifteen billion"},
+      {6, "sixteen billion"},
+      {7, "seventeen billion"},
+      {8, "eighteen billion"},
+      {9, "nineteen billion"},
     };
 
     public Dictionary<long, string> trillions = new Dictionary<long, string>()
@@ -160,7 +202,7 @@ namespace NumToWords.Models
         }
         if (inputNumList.Count == 11 && inputNumList[0] == 1)
         {
-          string newWord = GetDictionaryWord(teens,inputNumList[1]);
+          string newWord = GetDictionaryWord(teensBillions,inputNumList[1]);
           outputString.Add(newWord);
           inputNumList.RemoveAt(0);
           inputNumList.RemoveAt(0);
@@ -185,7 +227,7 @@ namespace NumToWords.Models
         }
         if (inputNumList.Count == 8 && inputNumList[0] == 1)
         {
-          string newWord = GetDictionaryWord(teens,inputNumList[1]);
+          string newWord = GetDictionaryWord(teensMillions,inputNumList[1]);
           outputString.Add(newWord);
           inputNumList.RemoveAt(0);
           inputNumList.RemoveAt(0);
@@ -210,7 +252,7 @@ namespace NumToWords.Models
         }
         if (inputNumList.Count == 5 && inputNumList[0] == 1)
         {
-          string newWord = GetDictionaryWord(teens,inputNumList[1]);
+          string newWord = GetDictionaryWord(teensThousands,inputNumList[1]);
           outputString.Add(newWord);
           inputNumList.RemoveAt(0);
           inputNumList.RemoveAt(0);
